@@ -1,0 +1,42 @@
+{
+  "name": "node-multi-sitemap",
+  "version": "0.0.1",
+  "description": "A sitemap module that is built to grow with multiple organized sitemaps (under an index). Good for dynamic sites that are constantly growing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "package.json"
+  ],
+  "keywords": [
+    "sitemaps",
+    "sitemap",
+    "create sitemap",
+    "sitemap index"
+  ],
+  "homepage": "https://github.com/maruf89/node-multi-sitemap",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maruf89/node-multi-sitemap"
+  },
+  "bugs": {
+    "url": "https://github.com/maruf89/node-multi-sitemap/issues"
+  },
+  "author": {
+    "name": "Marius Miliunas",
+    "url": "https://www.chatterplot.com"
+  },
+  "contributors": [],
+  "license": "ISC",
+  "dependencies": {
+    "lodash-node": "^3.3.0",
+    "shelljs": "^0.3.0"
+  },
+  "readmeFilename": "README.md",
+  "_id": "node-multi-sitemap@0.0.1",
+  "_from": "git://github.com/maruf89/node-multi-sitemap",
+  "_fromGithub": true
+}
