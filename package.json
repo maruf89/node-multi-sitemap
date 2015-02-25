@@ -1,6 +1,6 @@
 {
   "name": "node-multi-sitemap",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A sitemap module that is built to grow with multiple organized sitemaps (under an index). Good for dynamic sites that are constantly growing.",
   "main": "index.js",
   "scripts": {
@@ -36,7 +36,6 @@
     "shelljs": "^0.3.0"
   },
   "readmeFilename": "README.md",
-  "_id": "node-multi-sitemap@0.0.1",
   "_from": "git://github.com/maruf89/node-multi-sitemap",
   "_fromGithub": true
 }

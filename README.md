@@ -1,7 +1,7 @@
 # node-multi-sitemap
 A sitemap module that is built to grow with multiple connected sitemaps
 
-Good for if you want to keep your sitemaps organized into multiple individual sitemaps under an sitemap index file.
+Good for if you want to keep your sitemaps organized into multiple individual sitemaps under an sitemap index file. See https://support.google.com/webmasters/answer/75712?hl=en&rd=1 for details
 
 ## Installation
 
