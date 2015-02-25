@@ -14,7 +14,7 @@ Require and register your sitemap indexes
 ```coffee
 MultiSitemap    = require('node-multi-sitemap')
 
-sitemapPath     = '/path/to/sitemap'
+sitemapPath     = '/path/to/sitemap' # path to dir where all your sitemaps live
 
 pages           = ['products', 'blogs', 'events']
 
@@ -34,6 +34,22 @@ setTimeout ->
 ```
 
 ### TODO
+
+Currently this module expects you to already have a root sitemap index file, and be hooked up to use the sitemaps that your will be adding. For example the previous examples root sitemap would look like:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+    <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <sitemap>
+        <loc>https://www.example-site.com/path/to/sitemap/products.xml</loc>
+    </sitemap>
+    <sitemap>
+        <loc>https://www.example-site.com/path/to/sitemap/blogs.xml</loc>
+    </sitemap>
+    <sitemap>
+        <loc>https://www.example-site.com/path/to/sitemap/events.xml</loc>
+    </sitemap>
+```
 
 - Automatically generate the sitemap index XML file if it does not exist.
 - Does not currently support sitemap pages with more than 50,000 URLs
